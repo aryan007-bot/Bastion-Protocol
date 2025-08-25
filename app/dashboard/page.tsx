@@ -107,7 +107,7 @@ export default function Dashboard() {
         <div className="container flex h-16 items-center justify-between">
           <div className="flex items-center gap-4">
             <Link href="/" className="flex items-center gap-2 font-bold">
-              <div className="size-8 rounded-lg bg-gradient-to-br from-primary to-primary/70 flex items-center justify-center text-primary-foreground">
+              <div className="size-8 rounded-lg bg-gradient-to-br from-gray-500 to-gray-200 flex items-center justify-center text-primary-foreground">
                 B
               </div>
               <span>Bastion Protocol</span>
@@ -232,8 +232,8 @@ export default function Dashboard() {
               </CardHeader>
               <CardContent className="space-y-4">
                 {!policyActive ? (
-                  <Button onClick={handleBuyInsurance} className="w-full" size="lg">
-                    <Shield className="mr-2 size-4" />
+                  <Button onClick={handleBuyInsurance} className="w-full bg-slate-50" size="lg">
+                    <Shield className="mr-2  size-4" />
                     Buy Insurance Policy
                   </Button>
                 ) : (

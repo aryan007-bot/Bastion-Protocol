@@ -98,7 +98,7 @@ export default function FeaturesPage() {
       >
         <div className="container flex h-16 items-center justify-between">
           <Link href="/" className="flex items-center gap-2 font-bold">
-            <div className="size-8 rounded-lg bg-gradient-to-br from-primary to-primary/70 flex items-center justify-center text-primary-foreground">
+            <div className="size-8 rounded-lg bg-gradient-to-br from-gray-600 to-gray-300 flex items-center justify-center text-primary-foreground">
               B
             </div>
             <span>Bastion Protocol</span>
@@ -136,7 +136,7 @@ export default function FeaturesPage() {
             </Button>
             <WalletConnectButton />
             <Link href="/dashboard">
-              <Button className="rounded-full">
+              <Button className="rounded-full bg-slate-50 ">
                 Get Started
                 <ChevronRight className="ml-1 size-4" />
               </Button>
@@ -264,9 +264,9 @@ export default function FeaturesPage() {
         </section>
 
         {/* CTA Section */}
-        <section className="w-full py-20 md:py-32 bg-gradient-to-br from-primary to-primary/80 text-primary-foreground relative overflow-hidden">
-          <div className="absolute inset-0 -z-10 bg-[linear-gradient(to_right,#ffffff10_1px,transparent_1px),linear-gradient(to_bottom,#ffffff10_1px,transparent_1px)] bg-[size:4rem_4rem]"></div>
-          <div className="container px-4 md:px-6 relative">
+        <section className="w-full py-20 md:py-32  bg-slate-50   text-primary-foreground relative overflow-hidden">
+          <div className="absolute inset-0 -z-10 bg-[linear-gradient(to_right,#ffffff10_1px,transparent_1px),linear-gradient(to_bottom,#ffffff10_1px,transparent_1px)] bg-[size:4rem_4rem] "></div>
+          <div className="container px-4 md:px-6 relative bg-slate-50">
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
